@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_mob" 
+        />
+    <EditText 
+        android:id="@+id/ui_txt_mob"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ui_txt_mob_hint"
+        />
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/txt_msg"
+        />
+       <EditText 
+        android:id="@+id/ui_txt_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="top"
+        android:hint="@string/ui_msg_hint"
+        />
+       <Button
+        android:id="@+id/btn_txt_sms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_txt_sms"
+        />
+      </LinearLayout>
+

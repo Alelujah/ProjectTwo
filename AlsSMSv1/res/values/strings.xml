@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlsSMSv1</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="txt_mob">enter contact mobile no:</string>
+    <string name="ui_txt_mob_hint">enter contact mobile number</string>
+    
+    <string name="txt_msg">enter message:</string>
+    <string name="ui_msg_hint">enter sms message</string>
+    
+	<string name="btn_txt_sms">SEND SMS</string>
+
+</resources>
